@@ -1,6 +1,6 @@
-# Heading level 1
+# Welcome Javascript
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![js](/asset/image/js.png)
 
 ## Commands
 
