@@ -16,6 +16,12 @@ Awalnya hanya diimplementasi sebagai client-side dalam penjelajah web, kini engi
 
 ## Pentingnya Javascript
 
-Dalam sebuah analogi manusia, javascript itu mempengaruhi pola fungsi semuanya, seperti
+Dalam sebuah analogi robot, javascript itu mempengaruhi pola fungsi semuanya, seperti
 
 [![Analogi HTML,CSS,JS](/asset/image/analogi.gif "Analogi HTML,CSS,JS")](https://images.app.goo.gl/dEE4U4iUksKbTWZz7)
+
+Berdasarkan gambar diatas, bisa kita ambil kesimpulan yaitu dalam sebuah analogi robot
+
+> - HTML diibaratkan dengan kerangka robot, yang hanya terdiri dari kawat-kawat
+> - CSS diibaratkan dengan desain kerangka, seperti baju, topeng dan lain-lain
+> - JS diibaratkan dengan otak yang mampu bergerak dinamis
