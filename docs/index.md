@@ -18,4 +18,4 @@ Awalnya hanya diimplementasi sebagai client-side dalam penjelajah web, kini engi
 
 Dalam sebuah analogi manusia, javascript itu mempengaruhi pola fungsi semuanya, seperti
 
-[![Analogi HTML,CSS,JS](/asset/image/analogi.gif "Analogi HTML,CSS,JS")](https://images.app.goo.gl/dEE4U4iUksKbTWZz7)
+[![Analogi HTML,CSS,JS](asset/image/analogi.gif "Analogi HTML,CSS,JS")](https://images.app.goo.gl/dEE4U4iUksKbTWZz7)
