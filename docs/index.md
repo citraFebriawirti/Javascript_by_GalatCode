@@ -22,6 +22,6 @@ Dalam sebuah analogi robot, javascript itu mempengaruhi pola fungsi semuanya, se
 
 Berdasarkan gambar diatas, bisa kita ambil kesimpulan yaitu dalam sebuah analogi robot
 
-> - HTML diibaratkan dengan kerangka robot, yang hanya terdiri dari kawat-kawat
-> - CSS diibaratkan dengan desain kerangka, seperti baju, topeng dan lain-lain
-> - JS diibaratkan dengan otak yang mampu bergerak dinamis
+> - HTML diibaratkan dengan kerangka robot, yang hanya terdiri dari kawat-kawat (konten halaman web)
+> - CSS diibaratkan dengan desain kerangka, seperti baju, topeng dan lain-lain (tata letak halaman web)
+> - JS diibaratkan dengan otak yang mampu bergerak dinamis (perilaku halaman web)

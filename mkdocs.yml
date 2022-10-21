@@ -1,11 +1,7 @@
-site_name: Javascript by galatcode
+site_name: Javascript by Kafekoding
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
+
   language: en
   palette:
     - scheme: default
