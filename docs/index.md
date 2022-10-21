@@ -19,6 +19,7 @@ Awalnya hanya diimplementasi sebagai client-side dalam penjelajah web, kini engi
 Dalam sebuah analogi robot, javascript itu mempengaruhi pola fungsi semuanya, seperti
 
 [![Analogi HTML,CSS,JS](/asset/image/analogi.gif "Analogi HTML,CSS,JS")](https://images.app.goo.gl/dEE4U4iUksKbTWZz7)
+[![Watch the video](https://technicalseo.com/insights/wp-content/uploads/2019/04/javascript.gif)](https://images.app.goo.gl/dEE4U4iUksKbTWZz7)
 
 Berdasarkan gambar diatas, bisa kita ambil kesimpulan yaitu dalam sebuah analogi robot
 
