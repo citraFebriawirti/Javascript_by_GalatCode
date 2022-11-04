@@ -335,12 +335,33 @@
     Pengertian Variable
   </a>
   
-    <nav class="md-nav" aria-label="Pengertian Variable">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ketentuan-dalam-variable" class="md-nav__link">
+    Ketentuan dalam variable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jenis-jenis-variable-dalam-javascript" class="md-nav__link">
+    Jenis-jenis Variable dalam Javascript
+  </a>
+  
+    <nav class="md-nav" aria-label="Jenis-jenis Variable dalam Javascript">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#1-penugasan" class="md-nav__link">
     1. Penugasan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-scope" class="md-nav__link">
+    2. Scope
   </a>
   
 </li>
@@ -389,12 +410,33 @@
     Pengertian Variable
   </a>
   
-    <nav class="md-nav" aria-label="Pengertian Variable">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ketentuan-dalam-variable" class="md-nav__link">
+    Ketentuan dalam variable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jenis-jenis-variable-dalam-javascript" class="md-nav__link">
+    Jenis-jenis Variable dalam Javascript
+  </a>
+  
+    <nav class="md-nav" aria-label="Jenis-jenis Variable dalam Javascript">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#1-penugasan" class="md-nav__link">
     1. Penugasan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-scope" class="md-nav__link">
+    2. Scope
   </a>
   
 </li>
@@ -425,6 +467,17 @@
 <p>Variabel umumnya digunakan untuk menyimpan informasi, data atau nilai yang akan dikelola dalam sebuah program</p>
 <p><a href="https://images.app.goo.gl/dEbDypNU9UzR788e9"><img alt="Analogi Variabel" src="https://www.petanikode.com/img/c/var/variabel-tipe-data.webp" /></a></p>
 <p>Pada JavaScript setidaknya ada tiga cara untuk mendeklarasikan sebuah variabel, yaitu menggunakan keyword var, let, dan const. Pada versi ECMAScript 2015 (ES6) dikenalkan deklarasi variabel dengan let dan const untuk menggantikan var yang dinilai kontroversial dan rawan menimbulkan bug.</p>
+<h2 id="ketentuan-dalam-variable">Ketentuan dalam variable</h2>
+<p>Berikut beberapa aturan dalam penamaan variabel yang perlu Anda ketahui:</p>
+<blockquote>
+<ul>
+<li>Harus dimulai dengan huruf atau underscore (_).</li>
+<li>Dapat terdiri dari huruf, angka, dan underscore (_) dengan berbagai kombinasi.</li>
+<li>Tidak boleh mengandung spasi (whitespace). Jika penamaan variabel lebih dari dua kata, tuliskan secara camelCase. Contoh firstName, lastName, catName, dll.</li>
+<li>Tidak boleh mengandung karakter spesial (! . , / \ + * = dll.)</li>
+</ul>
+</blockquote>
+<h2 id="jenis-jenis-variable-dalam-javascript">Jenis-jenis Variable dalam Javascript</h2>
 <p>Adapun berbedaan Var, Let dan const dapat dilihat di bawah ini
 <a href="https://images.app.goo.gl/EjrEzZWJznJUAV5f6"><img alt="Analogi Variabel" src="https://miro.medium.com/max/1400/0*mYuuRwjUfUOAdHpo.jpg" /></a></p>
 <table>
@@ -448,18 +501,6 @@
 <td>function-scoped</td>
 <td>block-scoped</td>
 <td>block-scoped</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Codewars</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>4</td>
-<td>Leetcode</td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -492,13 +533,39 @@ nama = &quot;Senja anugrah&quot;
 
 console.log(nama)
 
-// output :
-error : 1234
-const nama = &quot;Citra Febriawirti&quot;
-nama = &quot;Senja anugrah&quot;
-
-console.log(nama)
+// Output :
 Cannot assign to &quot;nama&quot; because it is a constant
+</code></pre>
+<h3 id="2-scope">2. Scope</h3>
+<p><strong>Var</strong></p>
+<p><em><a href="https://playcode.io/1003129">Lihat code </a></em></p>
+<pre><code>for(var i=1; i&lt;6; i++){
+  console.log(i)
+}
+console.log(i)
+
+// Output :
+1
+2
+3
+4
+5
+6
+</code></pre>
+<p><strong>Let</strong></p>
+<p><em><a href="https://playcode.io/1003140">Lihat code </a></em></p>
+<pre><code>for(let i=1; i&lt;6; i++){
+  console.log(i)
+}
+console.log(i)
+
+// Output :
+1
+2
+3
+4
+5
+error : i is not defined
 </code></pre>
 
 
