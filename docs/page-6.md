@@ -1,32 +1,29 @@
-# Steatement dan Expression
+# Komentar
 
-# Analogi
+## Pengertian Komentar
 
-sebelum memahami lebih dalam apa itu statement dan expression, mari kita lihat sebuah gambar di bawah ini
+**Komentar** adalah intruksi yang ditulis dalam suatu program tetapi tidak dijalankan oleh komputer
 
-[![gambar](/asset/image/intruksi.gif)](https://www.canva.com/design/DAFLP-dq3Gc/watch)
+## Macam-macam Komentar
 
-## Expression
+#### 1. Sigle Line Comment
 
-**Expression** merupakan kode yang menghasilkan nilai yang terdiri dari operator dan operand berupa angka, huruf dan simbol ( Tersimpan dalam Variable, di Konstanta, di Fungsi)
-
-```
-x + 1; // ekspresi menjumlahkan x dengan 1
-8 \* 2; // ekspresi mengalikan 8 dengan 2
-sqrt(100); // ekspresi untuk menghitung
+Komentar yang digunakan hanya untuk **satu baris** dengan menulis **//**
 
 ```
-
-## Statement
-
-**Statement** adalah instruksi untuk melakukan sebuah aksi tertentu. Aksi ini bisa termasuk membuat variabel, melakukan perulangan, pengecekan kondisi, dll.
-
+// apakah kamu senang belajar di kelas javascript ?
+// function (){}
 ```
 
-let nama; // deklarasi nama variable
+#### 2. Multiple Line Comment
 
-if(x >= 9 ){
-console.log("Selamat datang di kelas javascript kafekoding 2020")
-}; // deklarasi pengecekan kondisi
+Komentar yang digunakan untuk **lebih dari satu baris** dengan menulis /\*\*/
 
+```
+/*
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+ when an unknown printer took a galley of type and
+ scrambled it to make a type specimen book.
+*/
 ```
