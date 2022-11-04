@@ -25,3 +25,7 @@ Berdasarkan gambar diatas, bisa kita ambil kesimpulan yaitu dalam sebuah analogi
 > - HTML diibaratkan dengan kerangka robot, yang hanya terdiri dari kawat-kawat (konten halaman web)
 > - CSS diibaratkan dengan desain kerangka, seperti baju, topeng dan lain-lain (tata letak halaman web)
 > - JS diibaratkan dengan otak yang mampu bergerak dinamis (perilaku halaman web)
+
+## SILABUS JS
+
+Klik link berikut : [silabus js](https://drive.google.com/file/d/1qDOaoFssqHFZXC1HVbNAigNtOCsjVF8H/view?usp=sharing)

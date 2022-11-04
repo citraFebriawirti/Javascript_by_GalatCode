@@ -10,6 +10,17 @@ Variabel umumnya digunakan untuk menyimpan informasi, data atau nilai yang akan 
 
 Pada JavaScript setidaknya ada tiga cara untuk mendeklarasikan sebuah variabel, yaitu menggunakan keyword var, let, dan const. Pada versi ECMAScript 2015 (ES6) dikenalkan deklarasi variabel dengan let dan const untuk menggantikan var yang dinilai kontroversial dan rawan menimbulkan bug.
 
+## Ketentuan dalam variable
+
+Berikut beberapa aturan dalam penamaan variabel yang perlu Anda ketahui:
+
+> - Harus dimulai dengan huruf atau underscore (\_).
+> - Dapat terdiri dari huruf, angka, dan underscore (\_) dengan berbagai kombinasi.
+> - Tidak boleh mengandung spasi (whitespace). Jika penamaan variabel lebih dari dua kata, tuliskan secara camelCase. Contoh firstName, lastName, catName, dll.
+> - Tidak boleh mengandung karakter spesial (! . , / \ + \* = dll.)
+
+## Jenis-jenis Variable dalam Javascript
+
 Adapun berbedaan Var, Let dan const dapat dilihat di bawah ini
 [![Analogi Variabel](https://miro.medium.com/max/1400/0*mYuuRwjUfUOAdHpo.jpg)](https://images.app.goo.gl/EjrEzZWJznJUAV5f6)
 
@@ -17,8 +28,6 @@ Adapun berbedaan Var, Let dan const dapat dilihat di bawah ini
 | ------------- | --------------- | ------------ | ----------------- |
 | **Penugasan** | Bisa diubah     | Bisa diubah  | Tidak Bisa diubah |
 | **Scope**     | function-scoped | block-scoped | block-scoped      |
-| 3             | Codewars        |              |                   |
-| 4             | Leetcode        |              |                   |
 
 Penjelasan detail yaitu sebagai berikut : 😍
 
@@ -62,11 +71,46 @@ nama = "Senja anugrah"
 
 console.log(nama)
 
-// output :
-error : 1234
-const nama = "Citra Febriawirti"
-nama = "Senja anugrah"
-
-console.log(nama)
+// Output :
 Cannot assign to "nama" because it is a constant
+```
+
+### 2. Scope
+
+**Var**
+
+_[Lihat code ](https://playcode.io/1003129)_
+
+```
+for(var i=1; i<6; i++){
+  console.log(i)
+}
+console.log(i)
+
+// Output :
+1
+2
+3
+4
+5
+6
+```
+
+**Let**
+
+_[Lihat code ](https://playcode.io/1003140)_
+
+```
+for(let i=1; i<6; i++){
+  console.log(i)
+}
+console.log(i)
+
+// Output :
+1
+2
+3
+4
+5
+error : i is not defined
 ```
