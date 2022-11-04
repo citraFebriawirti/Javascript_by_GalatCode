@@ -28,6 +28,8 @@ Analogi perbedaan let dan const :
 
 [![Analogi Variabel](https://d17ivq9b7rppb3.cloudfront.net/original/academy/2021042312472766ecde4ddcf6f5779fb275d5252e70ef.jpeg)](https://images.app.goo.gl/EjrEzZWJznJUAV5f6)
 
+Perbedaan VAR, LET dan CONST, dapat dilihat pada tabel dibawah ini :
+
 |               | Var             | let          | Const             |
 | ------------- | --------------- | ------------ | ----------------- |
 | **Penugasan** | Bisa diubah     | Bisa diubah  | Tidak Bisa diubah |
