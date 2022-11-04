@@ -1,29 +1,8 @@
-# Steatement dan Expression
+# Referensi Melatih Skill
 
-## Analogi
-
-sebelum memahami lebih dalam apa itu statement dan expression, mari kita lihat sebuah gambar di bawah ini
-
-[![gambar](/asset/image/intruksi.gif)](https://www.canva.com/design/DAFLP-dq3Gc/watch)
-
-## Expression
-
-**Expression** merupakan kode yang menghasilkan nilai yang terdiri dari operator dan operand berupa angka, huruf dan simbol ( Tersimpan dalam Variable, di Konstanta, di Fungsi)
-
-```
-x + 1; // ekspresi menjumlahkan x dengan 1
-8 * 2; // ekspresi mengalikan 8 dengan 2
-sqrt(100); // ekspresi untuk menghitung
-```
-
-## Statement
-
-**Statement** adalah instruksi untuk melakukan sebuah aksi tertentu. Aksi ini bisa termasuk membuat variabel, melakukan perulangan, pengecekan kondisi, dll.
-
-```
-let nama; // deklarasi nama variable
-
-if(x >= 9 ){
-    console.log("Selamat datang di kelas javascript kafekoding 2020")
-}; // deklarasi pengecekan kondisi
-```
+| No  | Course     | Link                                                                                 |
+| --- | ---------- | ------------------------------------------------------------------------------------ |
+| 1   | Dicoding   | **[Dicoding ](https://www.dicoding.com/)**                                           |
+| 2   | Hackerrank | **[Hackerrank](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)** |
+| 3   | Codewars   | **[Codewars](https://www.codewars.com/dashboard)**                                   |
+| 4   | Leetcode   | **[Leetcode ](https://leetcode.com/)**                                               |
