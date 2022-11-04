@@ -13,18 +13,20 @@ Pada JavaScript setidaknya ada tiga cara untuk mendeklarasikan sebuah variabel, 
 Adapun berbedaan Var, Let dan const dapat dilihat di bawah ini
 [![Analogi Variabel](https://miro.medium.com/max/1400/0*mYuuRwjUfUOAdHpo.jpg)](https://images.app.goo.gl/EjrEzZWJznJUAV5f6)
 
-|               | Var             | let          | let          |
-| ------------- | --------------- | ------------ | ------------ |
-| **Penugasan** | Bisa diubah     | Bisa diubah  | Bisa diubah  |
-| **Scope**     | function-scoped | block-scoped | block-scoped |
-| 3             | Codewars        |              |              |
-| 4             | Leetcode        |              |              |
+|               | Var             | let          | Const             |
+| ------------- | --------------- | ------------ | ----------------- |
+| **Penugasan** | Bisa diubah     | Bisa diubah  | Tidak Bisa diubah |
+| **Scope**     | function-scoped | block-scoped | block-scoped      |
+| 3             | Codewars        |              |                   |
+| 4             | Leetcode        |              |                   |
 
 Penjelasan detail yaitu sebagai berikut : 😍
 
 #### 1. Penugasan
 
 **Var**
+
+_[Lihat code ](https://playcode.io/1003106)_
 
 ```
 var kelas = "javascript"
@@ -35,4 +37,36 @@ console.log(kelas)
 javascript di kafekoding
 ```
 
-**[Lihat code ](https://playcode.io/1003106)**
+**Let**
+
+_[Lihat code ](https://playcode.io/1003115)_
+
+```
+let nama = "senja"
+nama = "sunrise"
+nama = "Bintang"
+
+console.log(nama)
+
+// output :
+Bintang
+```
+
+**Const**
+
+_[Lihat code ](https://playcode.io/1003124)_
+
+```
+const nama = "Citra Febriawirti"
+nama = "Senja anugrah"
+
+console.log(nama)
+
+// output :
+error : 1234
+const nama = "Citra Febriawirti"
+nama = "Senja anugrah"
+
+console.log(nama)
+Cannot assign to "nama" because it is a constant
+```
