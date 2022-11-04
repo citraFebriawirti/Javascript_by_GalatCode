@@ -13,7 +13,7 @@
     
     
       
-        <title>Steatement dan Expression - Javascript by Kafekoding</title>
+        <title>Variabel - Javascript by Kafekoding</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#steatement-dan-expression" class="md-skip">
+        <a href="#variabel" class="md-skip">
           Skip to content
         </a>
       
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Steatement dan Expression
+              Variabel
             
           </span>
         </div>
@@ -265,21 +265,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../page-5/" class="md-nav__link">
         Steatement dan Expression
       </a>
-      
     </li>
   
 
@@ -305,11 +295,65 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../page-7/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Variabel
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Variabel
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pengertian-variable" class="md-nav__link">
+    Pengertian Variable
+  </a>
+  
+    <nav class="md-nav" aria-label="Pengertian Variable">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-penugasan" class="md-nav__link">
+    1. Penugasan
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -334,6 +378,34 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pengertian-variable" class="md-nav__link">
+    Pengertian Variable
+  </a>
+  
+    <nav class="md-nav" aria-label="Pengertian Variable">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-penugasan" class="md-nav__link">
+    1. Penugasan
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -347,27 +419,61 @@
                   
 
 
-<h1 id="steatement-dan-expression">Steatement dan Expression</h1>
-<h1 id="analogi">Analogi</h1>
-<p>sebelum memahami lebih dalam apa itu statement dan expression, mari kita lihat sebuah gambar di bawah ini</p>
-<p><a href="https://www.canva.com/design/DAFLP-dq3Gc/watch"><img alt="gambar" src="/asset/image/intruksi.gif" /></a></p>
-<h2 id="expression">Expression</h2>
-<p><strong>Expression</strong> merupakan kode yang menghasilkan nilai yang terdiri dari operator dan operand berupa angka, huruf dan simbol ( Tersimpan dalam Variable, di Konstanta, di Fungsi)</p>
-<pre><code>x + 1; // ekspresi menjumlahkan x dengan 1
-8 \* 2; // ekspresi mengalikan 8 dengan 2
-sqrt(100); // ekspresi untuk menghitung
+<h1 id="variabel">Variabel</h1>
+<p><a href="hhttps://images.app.goo.gl/UFjV1eqknuoBC1Me6"><img alt="Analogi Variabel" src="https://www.petanikode.com/img/js/var/piring-variabel.png" /></a></p>
+<h3 id="pengertian-variable">Pengertian Variable</h3>
+<p>Variabel umumnya digunakan untuk menyimpan informasi, data atau nilai yang akan dikelola dalam sebuah program</p>
+<p><a href="https://images.app.goo.gl/dEbDypNU9UzR788e9"><img alt="Analogi Variabel" src="https://www.petanikode.com/img/c/var/variabel-tipe-data.webp" /></a></p>
+<p>Pada JavaScript setidaknya ada tiga cara untuk mendeklarasikan sebuah variabel, yaitu menggunakan keyword var, let, dan const. Pada versi ECMAScript 2015 (ES6) dikenalkan deklarasi variabel dengan let dan const untuk menggantikan var yang dinilai kontroversial dan rawan menimbulkan bug.</p>
+<p>Adapun berbedaan Var, Let dan const dapat dilihat di bawah ini
+<a href="https://images.app.goo.gl/EjrEzZWJznJUAV5f6"><img alt="Analogi Variabel" src="https://miro.medium.com/max/1400/0*mYuuRwjUfUOAdHpo.jpg" /></a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Var</th>
+<th>let</th>
+<th>let</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Penugasan</strong></td>
+<td>Bisa diubah</td>
+<td>Bisa diubah</td>
+<td>Bisa diubah</td>
+</tr>
+<tr>
+<td><strong>Scope</strong></td>
+<td>function-scoped</td>
+<td>block-scoped</td>
+<td>block-scoped</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Codewars</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Leetcode</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Penjelasan detail yaitu sebagai berikut : 😍</p>
+<h4 id="1-penugasan">1. Penugasan</h4>
+<p><strong>Var</strong></p>
+<pre><code>var kelas = &quot;javascript&quot;
+kelas = &quot;javascript di kafekoding&quot;
+console.log(kelas)
 
+// Output
+javascript di kafekoding
 </code></pre>
-<h2 id="statement">Statement</h2>
-<p><strong>Statement</strong> adalah instruksi untuk melakukan sebuah aksi tertentu. Aksi ini bisa termasuk membuat variabel, melakukan perulangan, pengecekan kondisi, dll.</p>
-<pre><code>
-let nama; // deklarasi nama variable
-
-if(x &gt;= 9 ){
-console.log(&quot;Selamat datang di kelas javascript kafekoding 2020&quot;)
-}; // deklarasi pengecekan kondisi
-
-</code></pre>
+<p><strong><a href="https://playcode.io/1003106">Lihat code </a></strong></p>
 
 
 
@@ -388,7 +494,7 @@ console.log(&quot;Selamat datang di kelas javascript kafekoding 2020&quot;)
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../page-4/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Referensi Melatih Skill" rel="prev">
+        <a href="../page-6/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Komentar" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -397,26 +503,11 @@ console.log(&quot;Selamat datang di kelas javascript kafekoding 2020&quot;)
               <span class="md-footer__direction">
                 Previous
               </span>
-              Referensi Melatih Skill
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../page-6/" class="md-footer__link md-footer__link--next" aria-label="Next: Komentar" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
               Komentar
             </div>
           </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
         </a>
+      
       
     </nav>
   
