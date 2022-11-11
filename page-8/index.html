@@ -321,9 +321,74 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Tipe Data
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Tipe Data
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-tipe-data-primitiv" class="md-nav__link">
+    1. Tipe Data Primitiv
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Tipe Data Primitiv">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-number" class="md-nav__link">
+    1. Number
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-string" class="md-nav__link">
+    2. String
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-boolean" class="md-nav__link">
+    3. Boolean
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipe-data-non-primitiv" class="md-nav__link">
+    Tipe Data Non Primitiv
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -349,6 +414,55 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-tipe-data-primitiv" class="md-nav__link">
+    1. Tipe Data Primitiv
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Tipe Data Primitiv">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-number" class="md-nav__link">
+    1. Number
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-string" class="md-nav__link">
+    2. String
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-boolean" class="md-nav__link">
+    3. Boolean
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipe-data-non-primitiv" class="md-nav__link">
+    Tipe Data Non Primitiv
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -364,6 +478,59 @@
 
 <h1 id="tipe-data">Tipe Data</h1>
 <p><img alt="Teks alternatif" src="../asset/image/tipe%20data.png" /></p>
+<p>Dalam pemrograman, tipe data merupakan konsep penting. Untuk dapat beroperasi pada variabel, penting untuk mengetahui sesuatu tentang tipenya. Tanpa tipe data, komputer tidak dapat menyelesaikan masalah di bawah ini:</p>
+<pre><code>var x = 11 + &quot;Alvin&quot;;
+</code></pre>
+<p>Apakah masuk akal untuk menambahkan "Alvin" dengan sebelas? Apakah akan menghasilkan kesalahan atau akan memberikan hasil? JavaScript akan memperlakukan contoh di atas sebagai berikut:</p>
+<pre><code>var x = &quot;11&quot; + &quot;Alvin&quot;;
+</code></pre>
+<h2 id="1-tipe-data-primitiv">1. Tipe Data Primitiv</h2>
+<p>Kali ini kita akan membahas beberapa basic tipe data yaitu tipe data primitif.</p>
+<p>=&gt; Primitif (nilai primitif, tipe data primitif) adalah data yang bukan objek dan tidak memiliki method. Dalam JavaScript, ada 6 tipe data primitif: string, number, boolean, null, undefined, symbol (ECMAScript 2015).</p>
+<p>Adapun 6 tipe data priitif dapat dijelaskan sebagai berikut :</p>
+<h3 id="1-number">1. Number</h3>
+<p>Value dari tipe data number adalah nilai numerik. Dalam program JavaScript, tipe data number ditulis sebagai berikut:</p>
+<pre><code>50; // bilangan int
+</code></pre>
+<pre><code>3.14; // bilangan desimal
+</code></pre>
+<p>Pengunaannya : <code>let umur = 20</code></p>
+<h3 id="2-string">2. String</h3>
+<p>Tipe data dasar berikutnya adalah string. String digunakan untuk merepresentasikan teks. String ditulis dengan melampirkan kontennya dalam tanda kutip.</p>
+<p>Kita dapat menggunakan single quotes, double quotes, atau backticks untuk menandai string, selama tanda kutip di awal dan akhir string cocok.</p>
+<pre><code>'Ini adalah kelas javascript'
+</code></pre>
+<pre><code>&quot;Ini adalah kelas javascript&quot;
+</code></pre>
+<pre><code>`Ini adalah kelas javascript`
+</code></pre>
+<p>Tanda kutip yang didahului oleh backslash tidak akan mengakhiri string tetapi menjadi bagian darinya. Ketika karakter "n" muncul setelah backslash (\n), itu ditafsirkan sebagai baris baru. Demikian pula, "t" setelah backslash (\t) berarti karakter tab.</p>
+<pre><code>&quot;Ini baris pertama\nDan ini baris kedua&quot;;
+
+//Output:
+Ini baris pertama
+Dan ini baris kedua
+</code></pre>
+<p>Bagaimana dengan penulisan "Tambahkan dengan \n" ?</p>
+<pre><code>&quot;Tambahkan dengan \&quot;\\n\&quot;&quot;
+</code></pre>
+<p>Bagimana dengan penulisan "Hari ini adalah hari Jum'at" ?</p>
+<pre><code>&quot;Hari ini adalah hari Jum'at&quot;
+</code></pre>
+<h3 id="3-boolean">3. Boolean</h3>
+<p>Boolean seringkali digunakan untuk nilai yang hanya memiliki dua kemungkinan, seperti "yes" dan "no" atau "on" dan "off". Untuk tujuan ini, JavaScript memiliki tipe Boolean, yang hanya memiliki dua nilai, true dan false.</p>
+<pre><code>console.log(3 &gt; 2);
+// → true
+console.log(3 &lt; 2);
+// → false
+</code></pre>
+<h2 id="tipe-data-non-primitiv">Tipe Data Non Primitiv</h2>
+<ol>
+<li>Object</li>
+<li>Array</li>
+<li>Function</li>
+</ol>
+<p>kok ga dijelaskan ? simak yok</p>
 
 
 
