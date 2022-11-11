@@ -4,7 +4,7 @@
 
 sebelum memahami lebih dalam apa itu statement dan expression, mari kita lihat sebuah gambar di bawah ini
 
-[![gambar](/asset/image/intruksi.gif)](https://www.canva.com/design/DAFLP-dq3Gc/watch)
+![Teks alternatif](./asset/image/intruksi.gif)
 
 ## Expression
 
