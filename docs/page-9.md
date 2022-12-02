@@ -191,6 +191,7 @@ adapun contoh soal yang menerapkan operator logika, yaitu sebagai berikut :
 var a = true;
 var b = false;
 
+
 var hasil1 = a && b;
 console.log(hasil1); //false
 

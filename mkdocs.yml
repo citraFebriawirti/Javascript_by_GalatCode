@@ -18,6 +18,9 @@ theme:
       accent: lime
   # logo: PyTorch_logo_icon.svg
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
 extra:
   social:
     - icon: fontawesome/brands/github-alt
