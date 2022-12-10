@@ -366,9 +366,60 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Perulangan
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Perulangan
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#apa-itu-perulangan" class="md-nav__link">
+    Apa itu Perulangan ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kenapa-perulangan-dilakukan" class="md-nav__link">
+    Kenapa Perulangan dilakukan
+  </a>
+  
+    <nav class="md-nav" aria-label="Kenapa Perulangan dilakukan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-for" class="md-nav__link">
+    1. For
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -394,6 +445,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#apa-itu-perulangan" class="md-nav__link">
+    Apa itu Perulangan ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kenapa-perulangan-dilakukan" class="md-nav__link">
+    Kenapa Perulangan dilakukan
+  </a>
+  
+    <nav class="md-nav" aria-label="Kenapa Perulangan dilakukan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-for" class="md-nav__link">
+    1. For
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -409,6 +495,42 @@
 
 <h1 id="perulangan">Perulangan</h1>
 <p><img alt="Teks alternatif" src="../asset/image/perulangan.gif" /></p>
+<h2 id="apa-itu-perulangan">Apa itu Perulangan ?</h2>
+<p>Looping atau yang lebih dikenal dengan perulangan adalah suatu metode dalam pemrograman untuk meng eksekusi suatu berintah yang sama terus-menerus hingga kondisi tertentu terpenuhi.</p>
+<h2 id="kenapa-perulangan-dilakukan">Kenapa Perulangan dilakukan</h2>
+<p><img alt="Teks alternatif" src="../asset/image/diperlukanfor.png" /></p>
+<p>Ketika programmer membuat program looping maka akan menjadikan script yang harus ditulis sebanyak puluhan atau ratusan baris menjadi hanya beberapa baris saja. Menggunakan looping berarti membuat sesuatu yang dapat menghasilkan banyak output dengan minimal script.</p>
+<p>Secara umum, perulangan ini dibagi dua.</p>
+<p>Yaitu: counted loop dan uncounted loop.</p>
+<p><img alt="Analogi Variabel" src="https://blog.wempy.xyz/content/images/2022/06/counted-uncounted-loop-js.jpg" /></p>
+<p>Perbedaanya:</p>
+<blockquote>
+<ul>
+<li>Counted Loop merupakan perulangan yang jelas dan sudah tentu banyak perulangannya (For, Foreach, Repeat).</li>
+<li>Uncounted Loop, merupakan perulangan yang tidak jelas berapa kali ia harus mengulang (While, Do/While).</li>
+</ul>
+</blockquote>
+<h3 id="1-for">1. For</h3>
+<p>Perulangan for merupakan perulangan yang termasuk dalam couted loop, karena sudah jelas berapa kali ia akan mengulang.
+Dengan sintaks sebagai berikut :</p>
+<pre><code>for(let i = 0; i &lt; 10; i++){
+    console.log(&quot;&lt;p&gt;Perulangan ke-&quot; + i + &quot;&lt;/p&gt;&quot;)
+}
+</code></pre>
+<p>Tahapan dalam pembacaan sintaks diatas, sebagaia berikut :</p>
+<ol>
+<li>Yang perlu diperhatikan adalah kondisi yang ada di dalam kurung setelah kata for.</li>
+<li>Kondisi ini akan menentukan:<blockquote>
+<ul>
+<li>Hitungan akan dimulai dari 0 (i = 0);</li>
+<li>Hitungannya sampai berapa? Sampai i &lt; 10;</li>
+<li>Lalu di setiap perulangan i akan bertambah +1 (i++).</li>
+<li>Variabel i pada perulangan for berfungsi untuk menyimpan nilai hitungan.</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<p>Jadi setiap perulangan dilakukan nilai i akan selalu bertambah satu. Karena kita menentukannya di bagian i++.</p>
 
 
 
