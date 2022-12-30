@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.6">
     
     
       
@@ -17,10 +17,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.20d9efc8.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
         
       
       
@@ -110,7 +110,6 @@
         
           
           
-          
           <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
@@ -118,7 +117,6 @@
             </label>
           
         
-          
           
           
           <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
@@ -408,8 +406,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pengertian-object" class="md-nav__link">
-    Pengertian Object
+  <a href="#1-pengertian-object" class="md-nav__link">
+    1. Pengertian Object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-kenapa-object" class="md-nav__link">
+    2. Kenapa object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-akses-nilai-properti" class="md-nav__link">
+    3. Akses Nilai Properti
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-object-di-dalam-object" class="md-nav__link">
+    4. Object di dalam object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-membuat-object-pada-javascript" class="md-nav__link">
+    5. Membuat object pada javascript
   </a>
   
 </li>
@@ -418,6 +444,36 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12_page-13/" class="md-nav__link">
+        Array
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13_page-14/" class="md-nav__link">
+        Function
+      </a>
     </li>
   
 
@@ -449,8 +505,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pengertian-object" class="md-nav__link">
-    Pengertian Object
+  <a href="#1-pengertian-object" class="md-nav__link">
+    1. Pengertian Object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-kenapa-object" class="md-nav__link">
+    2. Kenapa object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-akses-nilai-properti" class="md-nav__link">
+    3. Akses Nilai Properti
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-object-di-dalam-object" class="md-nav__link">
+    4. Object di dalam object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-membuat-object-pada-javascript" class="md-nav__link">
+    5. Membuat object pada javascript
   </a>
   
 </li>
@@ -472,10 +556,151 @@
 
 <h1 id="object">Object</h1>
 <p><img alt="Teks alternatif" src="https://www.tutorialstonight.com/assets/js/javascript-object.webp" /></p>
-<h2 id="pengertian-object">Pengertian Object</h2>
+<h2 id="1-pengertian-object">1. Pengertian Object</h2>
 <p>Perbedaan utama antara objek dan tipe data lain seperti string dan integer dalam JavaScript adalah bahwa objek dapat menyimpan berbagai tipe data sebagai nilainya. Di sisi lain, tipe data primitif seperti integer dan string hanya dapat menyimpan integer dan string, masing-masing, sebagai nilainya.</p>
-<p>Objek adalah sebuah variabel yang menyimpan nilai (properti) dan fungsi (method).
-vvvvvv</p>
+<p>Objek adalah sebuah variabel yang menyimpan nilai (properti) dan fungsi (method).</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<h2 id="2-kenapa-object">2. Kenapa object</h2>
+<pre><code>MAHASISWA
+
+Var nama = ‘budi’
+Var umur = 27
+Var lulus = true
+Var ipSemester : 3.99
+</code></pre>
+<p>Dari data mahasiswa dengan ditulis satu-satu masing data, sehingga kurang efektif untuk digunakan apabila skala banyak data yang akan digunakan</p>
+<pre><code>
+Var mahasiswa ={
+
+    nama : ‘budi sudarsono’,
+    umur : 27,
+    lulus : true,
+    ipSemester : 3.99,
+
+}
+
+Console.log(mahasiswa)
+
+</code></pre>
+<p>Output :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object1.png" /></p>
+<h2 id="3-akses-nilai-properti">3. Akses Nilai Properti</h2>
+<p>Akses nilai properti dapat dilakukan dengan dua cara, yaitu:</p>
+<blockquote>
+<ul>
+<li>1.Penggunaan kurung siku ([ ]) setelah nama objek. Kurung siku kemudian diisikan dengan nama properti, yang harus berupa string.</li>
+</ul>
+</blockquote>
+<pre><code>var mahasiswa = {
+  nama: 'budi sudarsono',
+  umur: 27,
+  lulus: true,
+  ipSemester: 3.99,
+}
+
+console.log(mahasiswa['umur'])
+
+</code></pre>
+<p>Output :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object2.png" /></p>
+<blockquote>
+<ul>
+<li>2.Penggunaan tanda titik (.) setelah nama objek diikuti dengan nama properti. Notasi ini merupakan notasi yang umum digunakan pada bahasa pemrograman lainnya</li>
+</ul>
+</blockquote>
+<pre><code>var mahasiswa ={
+    nama : 'budi sudarsono',
+    umur : 27,
+    lulus : true,
+    ipSemester : 3.99,
+}
+
+Console.log(mahasiswa.nama)
+
+</code></pre>
+<p>Output :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object3.png" /></p>
+<h2 id="4-object-di-dalam-object">4. Object di dalam object</h2>
+<pre><code>var mahasiswa = {
+  nama: 'budi sudarsono',
+  umur: 27,
+  lulus: true,
+  ipSemester: 3.99,
+  alamat: {
+    jalan: 'jln. Belanti no.123',
+    kota: 'padang',
+    provinsi: 'sumatera barat'
+  }
+}
+console.log(mahasiswa)
+
+</code></pre>
+<p>Output :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object4.png" /></p>
+<h2 id="5-membuat-object-pada-javascript">5. Membuat object pada javascript</h2>
+<blockquote>
+<ul>
+<li>Obejct literal</li>
+<li>Function deklarasi</li>
+</ul>
+</blockquote>
+<ol>
+<li>Oject Literal</li>
+</ol>
+<pre><code>var ayah = {
+   nama: 'budi',
+   umur:47,
+   agama: 'islam',
+   golonganDarah:'O',
+   alamat:'padang'
+}
+var ibu ={
+    nama: 'ayu',
+    umur: 45,
+    agama:'islam',
+    golonganDarah:'B',
+    alamat:'padang'
+}
+console.log(ayah)
+console.log(ibu)
+</code></pre>
+<p>Ouput :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object5.png" /></p>
+<p>2.Function Deklarasi</p>
+<pre><code>function objekKeluarga(nama,umur,agama,alamat){
+   var keluarga={}
+   keluarga.nama=nama
+   keluarga.umur=umur
+   keluarga.agama=agama
+   keluarga.alamat=alamat
+return keluarga
+
+}
+var ayah= objekKeluarga('budi',47,'islam','padang')
+var ibu=objekKeluarga('ayu',45,'islam','padang')
+
+console.log(ayah)
+console.log(ibu)
+
+</code></pre>
+<p>Output :</p>
+<h1 id="_1"><img alt="Teks alternatif" src="/asset/image/object6.png" /></h1>
+<h2 id="testing-dari-akmal">Testing Dari Akmal</h2>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>698122124123e10823748e728d962074cc877c0e</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
 
 
 
@@ -511,6 +736,21 @@ vvvvvv</p>
         </a>
       
       
+        
+        <a href="../12_page-13/" class="md-footer__link md-footer__link--next" aria-label="Next: Array" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Array
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
     </nav>
   
   <div class="md-footer-meta md-typeset">
@@ -533,7 +773,7 @@ vvvvvv</p>
       
     
     <a href="https://github.com/citraFebriawirti" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
     </a>
   
     
@@ -542,7 +782,7 @@ vvvvvv</p>
       
     
     <a href="https://www.linkedin.com/in/citra-febriawirti/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
     </a>
   
     
@@ -551,7 +791,7 @@ vvvvvv</p>
       
     
     <a href="https://www.instagram.com/" target="_blank" rel="noopener" title="www.instagram.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
     </a>
   
 </div>
@@ -565,12 +805,11 @@ vvvvvv</p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      <script src="../assets/javascripts/bundle.078830c0.min.js"></script>
       
-    
     
   </body>
 </html>
