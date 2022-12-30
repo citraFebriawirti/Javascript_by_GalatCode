@@ -406,8 +406,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pengertian-object" class="md-nav__link">
-    Pengertian Object
+  <a href="#1-pengertian-object" class="md-nav__link">
+    1. Pengertian Object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-kenapa-object" class="md-nav__link">
+    2. Kenapa object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-akses-nilai-properti" class="md-nav__link">
+    3. Akses Nilai Properti
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-object-di-dalam-object" class="md-nav__link">
+    4. Object di dalam object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-membuat-object-pada-javascript" class="md-nav__link">
+    5. Membuat object pada javascript
   </a>
   
 </li>
@@ -416,6 +444,36 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12_page-13/" class="md-nav__link">
+        Array
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13_page-14/" class="md-nav__link">
+        Function
+      </a>
     </li>
   
 
@@ -447,8 +505,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pengertian-object" class="md-nav__link">
-    Pengertian Object
+  <a href="#1-pengertian-object" class="md-nav__link">
+    1. Pengertian Object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-kenapa-object" class="md-nav__link">
+    2. Kenapa object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-akses-nilai-properti" class="md-nav__link">
+    3. Akses Nilai Properti
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-object-di-dalam-object" class="md-nav__link">
+    4. Object di dalam object
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-membuat-object-pada-javascript" class="md-nav__link">
+    5. Membuat object pada javascript
   </a>
   
 </li>
@@ -470,9 +556,134 @@
 
 <h1 id="object">Object</h1>
 <p><img alt="Teks alternatif" src="https://www.tutorialstonight.com/assets/js/javascript-object.webp" /></p>
-<h2 id="pengertian-object">Pengertian Object</h2>
+<h2 id="1-pengertian-object">1. Pengertian Object</h2>
 <p>Perbedaan utama antara objek dan tipe data lain seperti string dan integer dalam JavaScript adalah bahwa objek dapat menyimpan berbagai tipe data sebagai nilainya. Di sisi lain, tipe data primitif seperti integer dan string hanya dapat menyimpan integer dan string, masing-masing, sebagai nilainya.</p>
 <p>Objek adalah sebuah variabel yang menyimpan nilai (properti) dan fungsi (method).</p>
+<h2 id="2-kenapa-object">2. Kenapa object</h2>
+<pre><code>MAHASISWA
+
+Var nama = ‘budi’
+Var umur = 27
+Var lulus = true
+Var ipSemester : 3.99
+</code></pre>
+<p>Dari data mahasiswa dengan ditulis satu-satu masing data, sehingga kurang efektif untuk digunakan apabila skala banyak data yang akan digunakan</p>
+<pre><code>
+Var mahasiswa ={
+
+    nama : ‘budi sudarsono’,
+    umur : 27,
+    lulus : true,
+    ipSemester : 3.99,
+
+}
+
+Console.log(mahasiswa)
+
+</code></pre>
+<p>Output :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object1.png" /></p>
+<h2 id="3-akses-nilai-properti">3. Akses Nilai Properti</h2>
+<p>Akses nilai properti dapat dilakukan dengan dua cara, yaitu:</p>
+<blockquote>
+<ul>
+<li>1.Penggunaan kurung siku ([ ]) setelah nama objek. Kurung siku kemudian diisikan dengan nama properti, yang harus berupa string.</li>
+</ul>
+</blockquote>
+<pre><code>var mahasiswa = {
+  nama: 'budi sudarsono',
+  umur: 27,
+  lulus: true,
+  ipSemester: 3.99,
+}
+
+console.log(mahasiswa['umur'])
+
+</code></pre>
+<p>Output :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object2.png" /></p>
+<blockquote>
+<ul>
+<li>2.Penggunaan tanda titik (.) setelah nama objek diikuti dengan nama properti. Notasi ini merupakan notasi yang umum digunakan pada bahasa pemrograman lainnya</li>
+</ul>
+</blockquote>
+<pre><code>var mahasiswa ={
+    nama : 'budi sudarsono',
+    umur : 27,
+    lulus : true,
+    ipSemester : 3.99,
+}
+
+Console.log(mahasiswa.nama)
+
+</code></pre>
+<p>Output :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object3.png" /></p>
+<h2 id="4-object-di-dalam-object">4. Object di dalam object</h2>
+<pre><code>var mahasiswa = {
+  nama: 'budi sudarsono',
+  umur: 27,
+  lulus: true,
+  ipSemester: 3.99,
+  alamat: {
+    jalan: 'jln. Belanti no.123',
+    kota: 'padang',
+    provinsi: 'sumatera barat'
+  }
+}
+console.log(mahasiswa)
+
+</code></pre>
+<p>Output :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object4.png" /></p>
+<h2 id="5-membuat-object-pada-javascript">5. Membuat object pada javascript</h2>
+<blockquote>
+<ul>
+<li>Obejct literal</li>
+<li>Function deklarasi</li>
+</ul>
+</blockquote>
+<ol>
+<li>Oject Literal</li>
+</ol>
+<pre><code>var ayah = {
+   nama: 'budi',
+   umur:47,
+   agama: 'islam',
+   golonganDarah:'O',
+   alamat:'padang'
+}
+var ibu ={
+    nama: 'ayu',
+    umur: 45,
+    agama:'islam',
+    golonganDarah:'B',
+    alamat:'padang'
+}
+console.log(ayah)
+console.log(ibu)
+</code></pre>
+<p>Ouput :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object5.png" /></p>
+<p>2.Function Deklarasi</p>
+<pre><code>function objekKeluarga(nama,umur,agama,alamat){
+   var keluarga={}
+   keluarga.nama=nama
+   keluarga.umur=umur
+   keluarga.agama=agama
+   keluarga.alamat=alamat
+return keluarga
+
+}
+var ayah= objekKeluarga('budi',47,'islam','padang')
+var ibu=objekKeluarga('ayu',45,'islam','padang')
+
+console.log(ayah)
+console.log(ibu)
+
+</code></pre>
+<p>Output :</p>
+<p><img alt="Teks alternatif" src="/asset/image/object6.png" /></p>
 
 
 
@@ -507,6 +718,21 @@
           </div>
         </a>
       
+      
+        
+        <a href="../12_page-13/" class="md-footer__link md-footer__link--next" aria-label="Next: Array" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Array
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
