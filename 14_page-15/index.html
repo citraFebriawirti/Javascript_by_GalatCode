@@ -555,6 +555,28 @@ jika ada seorang yang belum terdaftar di kelas maka output nya "mohon maaf anda 
 <li>Joko kelas php yang kamu ambil berada di ruangan labor 101 kelas di mulai pada jam 01:00 pm pagi</li>
 <li>mohon maaf anda tidak mengambil kelas kafe koding</li>
 </ol>
+<blockquote>
+<ul>
+<li>Jawaban</li>
+</ul>
+</blockquote>
+<pre><code>let mhs1 = 'budi'
+let mhs2 = 'joko'
+let waktuJS = ('10:00 am')
+let waktuPHP = ('01:00 pm')
+let ruanganJavaScript = 'labor 103'
+let ruanganPHP = 'labor 101'
+
+if (mhs1 == 'budi') {
+console.log(mhs1 + ' kelas yang kamu ambil berada di ' + ruanganJavaScript + ' kelas di mulai pukul ' + waktuJS)
+} else if (mhs2 == 'joko') {
+  console.log(mhs2 + ' kelas yang kamu ambil berada di ' + ruanganPHP + ' kelas di mulai pukul ' + waktuPHP)
+} else {
+console.log('mohon maaf anda belum terdaftar di kelas kafe koding')
+}
+
+</code></pre>
+<p><img alt="Teks alternatif" src="../asset/image/review1.PNG" /></p>
 <h2 id="soal-2">Soal 2</h2>
 <p>Sebuah kampus memiliki 10 buah kelas kelas,</p>
 <p>🔹Kelas 1-6 sedang di pakai,</p>
@@ -566,9 +588,29 @@ jika ada seorang yang belum terdaftar di kelas maka output nya "mohon maaf anda 
 <ul>
 <li>jika kelas yang ke 1-6 di pakai maka output nya kelas 1-6 sedang di pakai oleh mahasiswa</li>
 <li>jika kelas 7,9,dan 10 tidak di pakai maka output nya kelas 7,9,10 sedang tidak di pakai</li>
-<li>jika kelas 8 sedang di renovasi maka output nya kelas yang ke 8 sedang di renovasi</li>
+<li>
+<p>jika kelas 8 sedang di renovasi maka output nya kelas yang ke 8 sedang di renovasi</p>
+</li>
+<li>
+<p>Jawaban</p>
+</li>
 </ul>
 </blockquote>
+<pre><code>let jumlahKelas= 10
+let kelasDipakai=6
+
+for(let nomorKelas=1;nomorKelas&lt;=jumlahKelas;nomorKelas++){
+  if(nomorKelas&lt;=kelasDipakai){
+  console.log('kelas no '+nomorKelas+' sedang di pakai oleh mahasiswa')
+  }else if (nomorKelas===8){
+  console.log('kelas no '+nomorKelas+' sedang di renovasi')
+  }else{
+  console.log('kelas no '+nomorKelas+' sedang tidak di pakai')
+  }
+}
+
+</code></pre>
+<p><img alt="Teks alternatif" src="../asset/image/review2.PNG" /></p>
 <h2 id="soal-3">Soal 3</h2>
 <p>Sebuah warung menjual kopi,gula dan minyak
 harga:</p>
@@ -582,9 +624,31 @@ harga:</p>
 <blockquote>
 <ul>
 <li>nama=jml*harga</li>
-<li>total=nama+nama+nama</li>
+<li>
+<p>total=nama+nama+nama</p>
+</li>
+<li>
+<p>Jawaban</p>
+</li>
 </ul>
 </blockquote>
+<pre><code>function warung(kopi,gula,minyak){
+    let jumlahKopi
+    let jumlahGula
+    let jumlahMinyak
+    let harga
+    jumlahKopi=kopi*5000
+    jumlahGula=gula*4000
+    jumlahMinyak=minyak*6000
+    harga=jumlahKopi+jumlahGula+jumlahMinyak
+
+    return harga
+}
+
+console.log('anda membeli kopi 2 bungkus dan minyak 1 bungkus dengan total bayar Rp. '+warung(2,0,1))
+
+</code></pre>
+<p><img alt="Teks alternatif" src="../asset/image/review3.PNG" /></p>
 
 
 
